@@ -1,0 +1,16 @@
+Get-NetAdapterBinding
+
+Disable IPv6
+Disable-NetAdapterBinding -Name 'Ethernet' -ComponentID 'ms_tcpip6'
+
+print route information
+route print
+
+Delete persistent route
+route delete 0.0.0.0 mask 0.0.0.0 gateway -p
+New
+Add a route
+route add 0.0.0.0 mask 0.0.0.0 gateway if adapter
+
+Get Adapter
+Get-NetAdapter -Name * -Physical
