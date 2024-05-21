@@ -1,0 +1,1 @@
+Get-MvaIpLocation - call function use -ipaddress 0.0.0.0 to get location info
