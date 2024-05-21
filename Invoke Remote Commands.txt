@@ -1,0 +1,4 @@
+Enter-PSSession
+Exit-PSSession
+
+Invoke-Command -ComputerName #Name1, #Name2 -ScriptBlack {Get-UICulture}
