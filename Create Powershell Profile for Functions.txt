@@ -1,0 +1,7 @@
+#Create Powershell Profile if one doesn't exist
+New-Item -Path $profile -ItemType File -Force
+
+#Check Powershell Profile FilePath
+$profile
+
+#To add a function to Powershell add it to the .ps1 file and save, should become available
